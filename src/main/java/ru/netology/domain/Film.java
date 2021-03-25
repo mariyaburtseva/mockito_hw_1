@@ -1,4 +1,16 @@
 package ru.netology.domain;
 
-public class fdfg {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Film {
+    private int id;
+    private String name;
+    private String genre;
+    private String Url;
 }
